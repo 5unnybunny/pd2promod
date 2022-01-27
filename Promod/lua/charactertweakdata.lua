@@ -1991,7 +1991,7 @@ function CharacterTweakData:_set_sm_wish()
 	self.tank.weapon.is_rifle.focus_delay = 0.2
 	self.tank.weapon.is_rifle.FALLOFF = {
 		{
-			dmg_mul = 4,
+			dmg_mul = 3,
 			r = 100,
 			acc = {
 				0.7,
@@ -2009,7 +2009,7 @@ function CharacterTweakData:_set_sm_wish()
 			}
 		},
 		{
-			dmg_mul = 4,
+			dmg_mul = 3,
 			r = 500,
 			acc = {
 				0.5,
@@ -2063,7 +2063,7 @@ function CharacterTweakData:_set_sm_wish()
 			}
 		},
 		{
-			dmg_mul = 2,
+			dmg_mul = 3,
 			r = 3000,
 			acc = {
 				0.15,
@@ -2376,7 +2376,7 @@ function CharacterTweakData:_set_sm_wish()
 		{
 			r = 100,
 			acc = {0.9, 0.95},
-			dmg_mul = 4,
+			dmg_mul = 6.75,
 			recoil = {0.35, 0.35},
 			mode = {
 				0,
@@ -2388,7 +2388,7 @@ function CharacterTweakData:_set_sm_wish()
 		{
 			r = 700,
 			acc = {0.8, 0.8},
-			dmg_mul = 3,
+			dmg_mul = 6.75,
 			recoil = {0.35, 0.55},
 			mode = {
 				0,
@@ -2400,7 +2400,7 @@ function CharacterTweakData:_set_sm_wish()
 		{
 			r = 1000,
 			acc = {0.6, 0.65},
-			dmg_mul = 2.5,
+			dmg_mul = 5,
 			recoil = {0.35, 0.55},
 			mode = {
 				0,
@@ -2412,7 +2412,7 @@ function CharacterTweakData:_set_sm_wish()
 		{
 			r = 2000,
 			acc = {0.5, 0.7},
-			dmg_mul = 2,
+			dmg_mul = 3.5,
 			recoil = {0.35, 1},
 			mode = {
 				0,
@@ -2447,9 +2447,9 @@ function CharacterTweakData:_set_sm_wish()
 	self.shield.weapon.is_pistol.FALLOFF = {
 		{
 			r = 100,
-			acc = {0.95, 0.95},
+			acc = {0.9, 0.95},
 			dmg_mul = 6.75,
-			recoil = {0.1, 0.25},
+			recoil = {0.35, 0.35},
 			mode = {
 				0,
 				0,
@@ -2458,10 +2458,10 @@ function CharacterTweakData:_set_sm_wish()
 			}
 		},
 		{
-			r = 500,
-			acc = {0.6, 0.75},
+			r = 700,
+			acc = {0.8, 0.8},
 			dmg_mul = 6.75,
-			recoil = {0.1, 0.3},
+			recoil = {0.35, 0.55},
 			mode = {
 				0,
 				0,
@@ -2471,9 +2471,9 @@ function CharacterTweakData:_set_sm_wish()
 		},
 		{
 			r = 1000,
-			acc = {0.5, 0.65},
-			dmg_mul = 6.75,
-			recoil = {0.35, 0.5},
+			acc = {0.6, 0.65},
+			dmg_mul = 5,
+			recoil = {0.35, 0.55},
 			mode = {
 				0,
 				0,
@@ -2483,9 +2483,9 @@ function CharacterTweakData:_set_sm_wish()
 		},
 		{
 			r = 2000,
-			acc = {0.5, 0.6},
-			dmg_mul = 6,
-			recoil = {0.35, 0.5},
+			acc = {0.5, 0.7},
+			dmg_mul = 3.5,
+			recoil = {0.35, 1},
 			mode = {
 				0,
 				3,
@@ -2495,9 +2495,9 @@ function CharacterTweakData:_set_sm_wish()
 		},
 		{
 			r = 3000,
-			acc = {0.5, 0.6},
-			dmg_mul = 4.5,
-			recoil = {0.5, 1.5},
+			acc = {0.5, 0.5},
+			dmg_mul = 1.5,
+			recoil = {0.5, 1.2},
 			mode = {
 				0,
 				3,
