@@ -380,4 +380,12 @@ function UpgradesTweakData:init(tweak_data)
 	self.specialization_descs[22][5].multiperk = "8"
 	self.specialization_descs[22][5].multiperk3 = "3%"
 	self.specialization_descs[22][9].multiperk = "12.5%"
+	
+	-- less healing from injector, should not completely negate damage below half now
+	self.values.temporary.chico_injector = {
+		{
+			0.7,
+			6
+		}
+	}
 end
