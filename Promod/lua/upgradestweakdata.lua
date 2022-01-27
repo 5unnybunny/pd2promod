@@ -388,4 +388,5 @@ function UpgradesTweakData:init(tweak_data)
 			6
 		}
 	}
+	self.specialization_descs[17][1].multiperk = "70%"
 end
