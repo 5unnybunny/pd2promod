@@ -63,14 +63,14 @@ self.sbl.stats.reload = 13
 -- Repeater
 self.winchester1874.stats.damage = 150
 self.winchester1874.stats_modifiers = {damage = 2}
-self.winchester1874.fire_mode_data.fire_rate = 60 / 100
+self.winchester1874.fire_mode_data.fire_rate = 60 / 85
 self.winchester1874.AMMO_PICKUP = {1.35, 2.65}
 self.winchester1874.AMMO_MAX = 30
 
 -- Rattlesnake
 self.msr.stats.damage = 150
 self.msr.stats_modifiers = {damage = 2}
-self.msr.fire_mode_data.fire_rate = 60 / 83
+self.msr.fire_mode_data.fire_rate = 60 / 70
 self.msr.AMMO_PICKUP = {1.35, 2.65}
 self.msr.AMMO_MAX = 30
 
@@ -78,7 +78,7 @@ self.msr.AMMO_MAX = 30
 self.r700.stats.damage = 150
 self.r700.stats_modifiers = {damage = 2}
 self.r700.AMMO_PICKUP = {1.35, 2.65}
-self.r700.fire_mode_data.fire_rate = 60 / 83
+self.r700.fire_mode_data.fire_rate = 60 / 70
 self.r700.AMMO_MAX = 30
 self.r700.kick.crouching = self.r700.kick.standing
 self.r700.kick.steelsight = self.r700.kick.standing
@@ -86,25 +86,25 @@ self.r700.kick.steelsight = self.r700.kick.standing
 -- Desert Fox
 self.desertfox.stats.damage = 145
 self.desertfox.stats_modifiers = {damage = 4}
-self.desertfox.fire_mode_data.fire_rate = 60 / 83
+self.desertfox.fire_mode_data.fire_rate = 60 / 70
 self.desertfox.AMMO_PICKUP = {0.9, 1.2}
 
 -- Nagant
 self.mosin.stats.damage = 145
 self.mosin.stats_modifiers = {damage = 4}
-self.desertfox.fire_mode_data.fire_rate = 60 / 83
+self.desertfox.fire_mode_data.fire_rate = 60 / 70
 self.mosin.AMMO_PICKUP = {0.9, 1.2}
 
 -- R93
 self.r93.stats.damage = 145
 self.r93.stats_modifiers = {damage = 4}
-self.r93.fire_mode_data.fire_rate = 60 / 83
+self.r93.fire_mode_data.fire_rate = 60 / 70
 self.r93.AMMO_PICKUP = {0.9, 1.2}
 
 -- Platypus
 self.model70.stats.damage = 145
 self.model70.stats_modifiers = {damage = 4}
-self.model70.fire_mode_data.fire_rate = 60 / 83
+self.model70.fire_mode_data.fire_rate = 60 / 70
 self.model70.AMMO_PICKUP = {0.9, 1.2}
 
 -- Thanatos

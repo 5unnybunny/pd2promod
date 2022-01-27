@@ -1887,8 +1887,8 @@ function CharacterTweakData:_set_sm_wish()
 				0.95
 			},
 			recoil = {
-				0.75,
-				0.75
+				0.9,
+				0.9
 			},
 			mode = {
 				1,
@@ -1905,8 +1905,8 @@ function CharacterTweakData:_set_sm_wish()
 				0.95
 			},
 			recoil = {
-				0.75,
-				0.75
+				0.9,
+				0.9
 			},
 			mode = {
 				1,
@@ -1923,8 +1923,8 @@ function CharacterTweakData:_set_sm_wish()
 				0.8
 			},
 			recoil = {
-				0.75,
-				0.75
+				0.9,
+				0.9
 			},
 			mode = {
 				1,
@@ -1941,8 +1941,8 @@ function CharacterTweakData:_set_sm_wish()
 				0.65
 			},
 			recoil = {
-				1.25,
-				1.5
+				1.1,
+				1.25
 			},
 			mode = {
 				1,
