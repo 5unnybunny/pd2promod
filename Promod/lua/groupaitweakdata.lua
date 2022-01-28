@@ -24,7 +24,7 @@ local access_type_all = {
 		self.unit_categories.shotgunner_elite = {
 			unit_types = {
 				america = {
-					Idstring("units/pd2_dlc_gitgud/characters/ene_zeal_swat/ene_zeal_swat")
+					Idstring("units/payday2/characters/ene_city_swat_2/ene_city_swat_2")
 				},
 				russia = {
 					Idstring("units/pd2_dlc_mad/characters/ene_akan_cs_swat_r870/ene_akan_cs_swat_r870")
