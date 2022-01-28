@@ -5,6 +5,14 @@
 	"contact" : "creepyyy#2633",
 	"version" : "fuck knows",
 	"blt_version" : 2,
+	"updates" : [
+	{
+		"identifier" : "pd2promod",
+		"host" : {
+			"meta" : "https://github.com/mrcreepysos/pd2promod/releases/download/refs%2Fheads%2Fmain/meta.json"
+			}
+		}
+	],
 	"hooks": [
 		{"hook_id": "lib/tweak_data/charactertweakdata", "script_path": "lua/charactertweakdata.lua"},
 		{"hook_id": "lib/tweak_data/skilltreetweakdata", "script_path": "lua/skilltreetweakdata.lua"},
