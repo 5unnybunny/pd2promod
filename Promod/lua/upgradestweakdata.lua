@@ -333,6 +333,15 @@ function UpgradesTweakData:init(tweak_data)
 
 	-- KP 45s inj description
 	self.specialization_descs[17][1].multiperk3 = 45
+	
+	-- less healing from injector, should not completely negate damage below half now
+	self.values.temporary.chico_injector = {
+		{
+			0.7,
+			6
+		}
+	}
+	self.specialization_descs[17][1].multiperk = "70%"
 
 	-- Sicario smoke bomb 50s cd and twitch 2s cooldown
 	self.values.player.dodge_shot_gain[2] = 2
@@ -381,12 +390,4 @@ function UpgradesTweakData:init(tweak_data)
 	self.specialization_descs[22][5].multiperk3 = "3%"
 	self.specialization_descs[22][9].multiperk = "12.5%"
 	
-	-- less healing from injector, should not completely negate damage below half now
-	self.values.temporary.chico_injector = {
-		{
-			0.7,
-			6
-		}
-	}
-	self.specialization_descs[17][1].multiperk = "70%"
 end
