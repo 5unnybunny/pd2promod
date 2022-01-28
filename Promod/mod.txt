@@ -1,9 +1,9 @@
 {
-  	"name" : "Promod Beta",
-    "description" : "smth idk",
-    "author" : "mrcreepy & many other people who helped me doing this"
+  	"name" : "Promod",
+	"description" : "An overhaul of the highest difficulty and other gameplay aspects of PD2. Intended to be used with REAI.",
+	"author" : "mrcreepy & many other people who helped me doing this"
 	"contact" : "creepyyy#2633",
-	"version" : "fuck knows",
+	"version" : "fuck knows tbh",
 	"blt_version" : 2,
 	"updates" : [
 	{
@@ -19,7 +19,7 @@
 		{"hook_id": "lib/tweak_data/upgradestweakdata", "script_path": "lua/upgradestweakdata.lua"},
 		{"hook_id": "lib/tweak_data/groupaitweakdata", "script_path": "lua/groupaitweakdata.lua"},
 		{"hook_id": "lib/tweak_data/weapontweakdata", "script_path": "lua/weapontweakdata.lua"},
-	    {"hook_id": "lib/units/weapons/newraycastweaponbase", "script_path": "lua/newraycastweaponbase.lua"},
+		{"hook_id": "lib/units/weapons/newraycastweaponbase", "script_path": "lua/newraycastweaponbase.lua"},
 		{"hook_id": "lib/units/weapons/shotgun/shotgunbase", "script_path": "lua/shotgunbase.lua"},
 		{"hook_id": "lib/managers/mission/elementspawnenemygroup", "script_path": "lua/elementspawnenemygroup.lua"},
 		{"hook_id": "lib/network/matchmaking/networkmatchmakingsteam", "script_path": "lua/networkmatchmakingsteam.lua"},
