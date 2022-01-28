@@ -369,18 +369,11 @@ self.akmsu.stats.damage = 80
 end)
 
 	-- NPC weapon edits
-Hooks:PostHook(WeaponTweakData, "_init_data_g36_npc", "promod", function (self)
-	self.g36_npc.categories = {
-		"smg"
-	}
-end)
 Hooks:PostHook(WeaponTweakData, "_set_sm_wish", "promod", function(self)
 	self.raging_bull_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
 	self.ak47_ass_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
 	self.m4_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
-	self.m4_npc.auto.fire_rate = 0.17 -- Increase the rof a bit to make it obey grace periods properly
 	self.g36_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
-	self.m4_yellow_npc.auto.fire_rate = 0.17 -- Increase the rof a bit to make it obey grace periods properly
 	self.m4_yellow_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
 	self.r870_npc.CLIP_AMMO_MAX = 8 -- They use  8rnd (if not 10rnd even) tube
 	self.saiga_npc.CLIP_AMMO_MAX = 20 -- Saiga dozers are useless with 7rnd mag
