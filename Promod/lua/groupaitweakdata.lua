@@ -1056,7 +1056,7 @@ Hooks:PostHook(GroupAITweakData, "_init_task_data", "promod_task_data", function
 		self.besiege.assault.sustain_duration_min = {150, 165, 180}
 		self.besiege.assault.sustain_duration_max = {150, 165, 180}
 
-		-- Sustain duration multipliers, based on player count (same as vanilla)
+		-- Sustain duration multipliers, based on player count
 		self.besiege.assault.sustain_duration_balance_mul = {1, 1.1, 1.2, 1.2}
 
 		-- Increase fade duration (consistent 75 seconds, unaffected by drama)

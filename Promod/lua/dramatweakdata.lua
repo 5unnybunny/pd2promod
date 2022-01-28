@@ -1,3 +1,4 @@
+-- Make drama inefficient so that it has barely (if any) impact on fades
 function DramaTweakData:init()
 	self:_create_table_structure()
 

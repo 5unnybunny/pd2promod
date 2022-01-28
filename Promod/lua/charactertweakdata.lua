@@ -597,7 +597,7 @@ function CharacterTweakData:_set_sm_wish()
 	-- As well as giving them aim delays and focus delays to cut down on the cheap prefires
 
 	-- M4 riflemen preset (lights and heavies)
-	-- Goes from 225dmg point blank down to 100dmg
+	-- Goes from 160dmg point blank down to 100dmg
 	local m4 = {
 		aim_delay = {
 			0.2,
@@ -748,7 +748,7 @@ function CharacterTweakData:_set_sm_wish()
 	}
 
 	-- UMP Gensec preset
-	-- 160 damage point blank down to 80 at max range
+	-- 160 damage point blank down to 60 at max range
 	self.city_swat.weapon.is_smg = {
 		aim_delay = {
 			0.2,
@@ -1013,7 +1013,7 @@ function CharacterTweakData:_set_sm_wish()
 	}
 	
 	-- Cloaker / Medic preset
-	-- 6 damage and goes down to 10 
+	-- 60 damage and goes down to 10 
 	local cloaker = {
 		aim_delay = {
 			0.2,
@@ -1866,7 +1866,7 @@ function CharacterTweakData:_set_sm_wish()
 	}
 
 	-- Greendozer preset
-	-- Damage unchanged, higher rog and not shit falloff
+	-- Damage unchanged, higher rof and not shit falloff
 	self.tank.weapon.is_shotgun_pump.aim_delay = {
 		0.2,
 		0.2
@@ -1973,7 +1973,7 @@ function CharacterTweakData:_set_sm_wish()
 
 
 	-- Skulldozer preset
-	-- 80dmg down to 30 past 30m, a bit lower spread
+	-- 60dmg no falloff, a bit lower spread
 	self.tank.weapon.is_rifle.spread = 15
 	self.tank.weapon.is_rifle.aim_delay = {
 		0.2,
@@ -2363,7 +2363,7 @@ function CharacterTweakData:_set_sm_wish()
 	}
 
 	-- Shield preset
-	-- Lowered the damage down to 40 with falloff to give some purpose to LBV
+	-- Lowered the damage down to 67.5 with falloff to give some purpose to LBV with die hard
 	self.shield.weapon.is_smg.aim_delay = {0.2, 0.2}
 	self.shield.weapon.is_smg.focus_delay = 0.2
 	self.shield.weapon.is_smg.focus_dis = 200
@@ -2436,7 +2436,7 @@ function CharacterTweakData:_set_sm_wish()
 	}
 
 	--Shield with glock (scripted)
-	--identical to mp9 except fire rate/acc
+	--identical to mp9
 	self.shield.weapon.is_pistol.aim_delay = {0.2, 0.2}
 	self.shield.weapon.is_pistol.focus_delay = 0.2
 	self.shield.weapon.is_pistol.range = {
@@ -2507,7 +2507,7 @@ function CharacterTweakData:_set_sm_wish()
 		}
 	}
 
-		-- zeal rifleman (m4)
+		--zeal rifleman (m4)
 		self.heavy_swat.weapon.is_rifle = m4
 		--tans (g36/m4, map spawn)
 		self.fbi_heavy_swat.weapon.is_rifle = self.city_swat.weapon.is_smg

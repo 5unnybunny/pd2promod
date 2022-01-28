@@ -92,7 +92,7 @@ self.desertfox.AMMO_PICKUP = {0.9, 1.2}
 -- Nagant
 self.mosin.stats.damage = 145
 self.mosin.stats_modifiers = {damage = 4}
-self.desertfox.fire_mode_data.fire_rate = 60 / 70
+self.mosin.fire_mode_data.fire_rate = 60 / 70
 self.mosin.AMMO_PICKUP = {0.9, 1.2}
 
 -- R93
