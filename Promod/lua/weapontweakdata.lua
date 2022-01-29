@@ -164,6 +164,14 @@ self.saiga.AMMO_PICKUP = {3, 4}
 self.saiga.kick.standing = {2.5, 3.2, -0.2, 0.2}
 self.saiga.kick.crouching = self.saiga.kick.standing
 self.saiga.kick.steelsight = self.saiga.kick.standing
+self.saiga.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- Steakout
 self.aa12.rays = 12
@@ -172,6 +180,14 @@ self.aa12.AMMO_PICKUP = {3, 4}
 self.aa12.kick.standing = {2.5, 3.2, -0.2, 0.2}
 self.aa12.kick.crouching = self.aa12.kick.standing
 self.aa12.kick.steelsight = self.aa12.kick.standing
+self.aa12.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- M1014
 self.benelli.rays = 12
@@ -180,6 +196,14 @@ self.benelli.AMMO_PICKUP = {2.5, 3.5}
 self.benelli.kick.standing = {1.8, 2, -0.2, 0.2}
 self.benelli.kick.crouching = self.benelli.kick.standing
 self.benelli.kick.steelsight = self.benelli.kick.standing
+self.benelli.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.moving_crouching,
+	moving_crouching = self.new_m4.spread.moving_crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- Predator
 self.spas12.rays = 12
@@ -188,6 +212,14 @@ self.spas12.AMMO_PICKUP = {2.6, 3.6}
 self.spas12.kick.standing = {1.3, 1.5, -0.2, 0.2}
 self.spas12.kick.crouching = self.spas12.kick.standing
 self.spas12.kick.steelsight = self.spas12.kick.standing
+self.spas12.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- Raven
 self.ksg.rays = 12
@@ -242,11 +274,27 @@ self.basset.AMMO_PICKUP = {2, 3}
 self.basset.kick.standing = {2, 3, -0.2, 0.2}
 self.basset.kick.crouching = self.basset.kick.standing
 self.basset.kick.steelsight = self.basset.kick.standing
+self.basset.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 self.x_basset.rays = 12
-self.x_basset.AMMO_PICKUP = {3, 4}
+self.x_basset.AMMO_PICKUP = {3.5, 4.5}
 self.x_basset.kick.standing = {2, 3, -0.2, 0.2}
 self.x_basset.kick.crouching = self.x_basset.kick.standing
 self.x_basset.kick.steelsight = self.x_basset.kick.standing
+self.x_basset.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- Goliath (&akimbo)
 self.rota.rays = 12
@@ -254,11 +302,27 @@ self.rota.AMMO_PICKUP = {1.5, 2.5}
 self.rota.kick.standing = {1.8, 2, -0.2, 0.2}
 self.rota.kick.crouching = self.rota.kick.standing
 self.rota.kick.steelsight = self.rota.kick.standing
+self.rota.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 self.x_rota.rays = 12
-self.x_rota.AMMO_PICKUP = {1.65, 2.65}
+self.x_rota.AMMO_PICKUP = {2.5, 3}
 self.x_rota.kick.standing = {2, 3, -0.2, 0.2}
 self.x_rota.kick.crouching = self.x_rota.kick.standing
 self.x_rota.kick.steelsight = self.x_rota.kick.standing
+self.x_rota.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- Judge (&akimbo)
 self.judge.rays = 12
@@ -287,6 +351,14 @@ self.striker.AMMO_PICKUP = {1.75, 2.65}
 self.striker.kick.standing = {1.8, 2, -0.2, 0.2}
 self.striker.kick.crouching = self.striker.kick.standing
 self.striker.kick.steelsight = self.striker.kick.standing
+self.striker.spread = {
+	standing = self.new_m4.spread.crouching,
+	crouching = self.new_m4.spread.crouching,
+	steelsight = self.new_m4.spread.steelsight,
+	moving_standing = self.new_m4.spread.crouching,
+	moving_crouching = self.new_m4.spread.crouching,
+	moving_steelsight = self.new_m4.spread.moving_steelsight
+}
 
 -- DMRs
 
