@@ -343,10 +343,9 @@ function UpgradesTweakData:init(tweak_data)
 	}
 	self.specialization_descs[17][1].multiperk = "70%"
 
-	-- Sicario smoke bomb 50s cd and twitch 2s cooldown
-	self.values.player.dodge_shot_gain[2] = 2
-	self.specialization_descs[18][1].multiperk3 = "50"
-	self.specialization_descs[18][3].multiperk2 = "2"
+	-- Sicario twitch 3s cooldown
+	self.values.player.dodge_shot_gain[2] = 3
+	self.specialization_descs[18][3].multiperk2 = "3"
 
 	-- Stoic dot decrease (8s), resist decrease (60%), cd increase (12s)
 	self.values.player.damage_control_passive = {
@@ -357,7 +356,7 @@ function UpgradesTweakData:init(tweak_data)
 	}
 	self.specialization_descs[19][1].multiperk = "60%"
 	self.specialization_descs[19][1].multiperk2 = "8"
-	self.specialization_descs[19][1].multiperk3 = "12"
+	self.specialization_descs[19][1].multiperk3 = "16"
 
 	-- Tag Team 5 ab/kill and 3s cd decrease
 	self.values.player.tag_team_damage_absorption.kill_gain = 0.5

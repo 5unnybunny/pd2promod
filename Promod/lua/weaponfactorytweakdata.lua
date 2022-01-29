@@ -72,6 +72,8 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "statchange", function(self)
     self.parts.wpn_fps_upg_ns_shot_thick.stats.damage = -6
     -- Shh
     self.parts.wpn_fps_upg_ns_sho_salvo_large.stats.damage = -4
+    -- Silenced Barrel (lion's roar)
+    self.parts.wpn_fps_ass_vhs_b_silenced.stats.damage = -5
     -- Stealth Barrel (car-4)
     self.parts.wpn_fps_m4_uupg_b_sd.stats.damage = -3
     -- Suppressed Barrel (steakout)

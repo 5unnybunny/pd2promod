@@ -4,8 +4,6 @@ function BlackMarketTweakData:_init_projectiles(tweak_data)
     
     -- 45s injector cooldown
     self.projectiles.chico_injector.base_cooldown = 45
-    -- 50s smoke bomb cooldown
-    self.projectiles.smoke_screen_grenade.base_cooldown = 50
-    -- 12s flask cooldown
-    self.projectiles.damage_control.base_cooldown = 12
+    -- 16s flask cooldown
+    self.projectiles.damage_control.base_cooldown = 16
 end
