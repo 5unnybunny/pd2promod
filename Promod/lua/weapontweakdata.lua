@@ -442,13 +442,18 @@ end)
 
 	-- NPC weapon edits
 Hooks:PostHook(WeaponTweakData, "_set_sm_wish", "promod", function(self)
-	self.raging_bull_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
-	self.ak47_ass_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
+	-- Main
 	self.m4_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
-	self.g36_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
+	self.m4_npc.auto.fire_rate = 0.225 -- Lower RoF
 	self.m4_yellow_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
+	self.m4_yellow_npc.auto.fire_rate = 0.225 -- Lower RoF
+	self.m249_npc.auto.fire_rate = 0.07 -- Higher RoF so that it obeys grace periods
 	self.r870_npc.CLIP_AMMO_MAX = 8 -- They use  8rnd (if not 10rnd even) tube
 	self.saiga_npc.CLIP_AMMO_MAX = 20 -- Saiga dozers are useless with 7rnd mag
 	self.benelli_npc.CLIP_AMMO_MAX = 8 -- They use the 8rnd tube
+	-- Misc
+	self.raging_bull_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
+	self.ak47_ass_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
+	self.g36_npc.DAMAGE = 1 -- Set damage to 1 to make creating weapon presets easier
 	self.benelli_npc.sounds.prefix = "benelli_m4_npc" -- Give it a proper sound
 end)
