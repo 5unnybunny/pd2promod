@@ -344,10 +344,15 @@ function UpgradesTweakData:init(tweak_data)
 	self.specialization_descs[17][1].multiperk = "70%"
 
 	-- Sicario twitch 3s cooldown
-	self.values.player.dodge_shot_gain[2] = 3
+	self.values.player.dodge_shot_gain = {
+		{
+			0.2,
+			3
+		}
+	}
 	self.specialization_descs[18][3].multiperk2 = "3"
 
-	-- Stoic dot decrease (8s), resist decrease (60%), cd increase (12s)
+	-- Stoic dot decrease (8s), resist decrease (60%), cd increase (16s)
 	self.values.player.damage_control_passive = {
 		{
 			60,
