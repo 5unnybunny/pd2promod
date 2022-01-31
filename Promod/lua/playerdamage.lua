@@ -1,3 +1,6 @@
+--uppers cooldown
+PlayerDamage._UPPERS_COOLDOWN = 60
+
 -- Grace period protects no matter the new potential damage but is shorter in general
 function PlayerDamage:_chk_dmg_too_soon()
 	local next_allowed_dmg_t = type(self._next_allowed_dmg_t) == "number" and self._next_allowed_dmg_t or Application:digest_value(self._next_allowed_dmg_t, false)
